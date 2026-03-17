@@ -2,9 +2,8 @@
 
 ## Docker Hub image
 
-Replace `<your_dockerhub_username>` with your Docker Hub username.
-
-- Repository: `docker.io/<your_dockerhub_username>/todoapp`
+- Repository: `docker.io/nazarkulyk6/todoapp`
+- Link: `https://hub.docker.com/r/nazarkulyk6/todoapp`
 - Tag: `1.0.0`
 
 ## Build
@@ -30,7 +29,7 @@ API is available at `http://localhost:8080/api/`.
 ## Tag and push to Docker Hub
 
 ```bash
-docker tag todoapp <your_dockerhub_username>/todoapp:1.0.0
-docker push <your_dockerhub_username>/todoapp:1.0.0
+docker tag todoapp nazarkulyk6/todoapp:1.0.0
+docker push nazarkulyk6/todoapp:1.0.0
 ```
 
